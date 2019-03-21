@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MainController">
+    <children>
+      <TextField fx:id="textCep" layoutX="320.0" layoutY="72.0" prefHeight="31.0" prefWidth="200.0" promptText="CEP" />
+      <TextArea fx:id="textInformacoes" editable="false" layoutX="320.0" layoutY="122.0" prefHeight="200.0" prefWidth="200.0" promptText="Informações" />
+      <Button layoutX="379.0" layoutY="334.0" mnemonicParsing="false" onAction="#Pesquisar" text="Pesquisar" />
+      <Label layoutX="25.0" layoutY="88.0" prefHeight="92.0" prefWidth="262.0" text="O CEP deve ser informado de acordo com o seguinte formato: NNNNN-NNN  Exemplo: 83325-150" wrapText="true" />
+    </children>
+</AnchorPane>
